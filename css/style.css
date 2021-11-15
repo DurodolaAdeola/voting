@@ -1,0 +1,19 @@
+.container-fluid{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+a{
+    padding: 30px;
+    margin-top: 30%;
+}
+img{
+    float: left;
+    margin-top:auto ;
+    
+}
+nav{
+    background-color: green;
+    height: 200px;
+    padding-top: 70px;
+}
