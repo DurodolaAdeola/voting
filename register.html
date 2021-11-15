@@ -20,6 +20,50 @@
             <a href="register.html"><b>REGISTER TO VOTE</b></a>
         </nav>
     </div><br>
+
+    <form autocomplete="on" class="Form">
+        <fieldset>
+            <legend><strong>Personal Profile</strong> </legend>
+            <label for="firstname"><strong>Firstname</strong></label> <br>
+            <input type="text" name="Firstname" id="firstname" placeholder="Write your Firstname" value="" autofocus class="form-control" required><br>
+            <label for="Lastname"><strong>Lastname</strong></label> <br>
+            <input type="text" name="Lastname" id="Lastname" placeholder="Write your Lastname" value="" class="form-control" required><br>
+            <label for="middlename"><strong>Age</strong></label> <br>
+            <input type="number" name="Age" id="age" placeholder="age" value="" autofocus class="form-control" required ><br>
+            <label for="Email"><strong>Email</strong></label> <br>
+            <input type="text" name="Email" id="Email" placeholder="Write your Email" value="" class="form-control"> <br>
+            <label for="Phonenumber"><strong>Phonenumber</strong></label> <br>
+            <input type="text" name="Phonenumber" id="Phonenumber" placeholder="Phone number" value="" class="form-control">
+        </fieldset><br>
+    
+        <fieldset>
+                <legend>Sex</legend> 
+                <label>
+                    <input type="radio" id="male" name="Gender" value="male" checked >
+                    Male
+                </label>
+                <br>
+            
+            <label>
+                <input type="radio" name="Gender"  value="female">
+                Female</label><br>
+        </fieldset><br>
+    
+        
+    </fieldset>
+    
+        <fieldset>
+            <legend>Select your category</legend>
+           
+                 <select name="party" id="Party" >
+                <option value="presidential" id="Pres">presidential</option>
+                <option value="governor" id="gov">Governor</option>
+                <option value="senator" id="sen">Senatorial</option>
+                <option value="house of rep" id="hor">house of representatives</option> <br>
+                 </fieldset></select><br><br>
+            <input type="submit" name="submit" class="btn" value="Submit"><br>
+    </form>
+    <div id="#Output"></div>
     
 </body>
 </html>
