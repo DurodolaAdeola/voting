@@ -10,14 +10,56 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-    <div class="container-fluid">
+<body  class="container-fluid">
+    <div>
         <nav>
             <img src="image/flag2.jpg" width="5%">
             <a href="index.html"><b>HOME</b></a>
             <a href="voting information.html"><b>VOTING INFORMATION</b></a>
             <a href="register.html"><b>REGISTER TO VOTE</b></a>
         </nav>
+    </div><br>
+    <div>
+        <h1><SPAN class="wel"><B>WELCOME</B></SPAN> TO OUR ONLINE VOTING CENTER, PLEASE RELAX AND CAST YOUR VOTE TO YOUR PREFERED PARTY.</h1>
+    </div><BR>
+    <div class="row jumbotron bg-success">
+        <div class="col-6">
+            <img src="image/president_of_nigeria.jpg " width="100%" height="550">
+            <h4 style="color: white;">PRESIDENT MUHAMMADU BUHARI</h4>
+            </div>
+    
+        <div class="col-6">
+            <img src="image/R.jpg" width="100%" height="550">
+            <h4 style="color: white;">VICE-PRESIDENT OSINBAJO</h4>
+
+        </div>
+
+        <marquee>
+            <hr><h3 style="text-align: center; color: white;">REGISTER FOR YOUR PVC @ THE NEAREST POLLING UNIT</h3><hr>
+        </marquee>
+        
+
+    </div><br>
+    <!--election candidates-->
+    <div class="jumbotron bg-success"><hr>
+        <h2>ELECTION CANDIDATES</h2><hr>
     </div>
+    <!--validity to vote-->
+    <h1 class="val">VALIDITY TO VOTE</h1><br>
+    <!--validity form-->
+    <div class="form">
+        <form class="jumbotron bg-success">
+            <label for="firstname"><strong>Firstname</strong></label> <br>
+            <input type="text" name="Firstname" id="firstname" placeholder="Write your Firstname" value="" autofocus class="form-control" required><br>
+            <label for="middlename"><strong>LastName</strong></label> <br>
+            <input type="text" name="lastname" id="lastname" placeholder="Write your Lastname" value="" autofocus class="form-control" required ><br>
+            <label for="height"><strong>Height</strong></label> <br>
+            <input type="text" name="height" id="Height" placeholder="Height" value="" class="form-control" required><br>
+        </form>
+        <button type="submit" class="btn" id="Btn">SUBMIT</button>
+    </div>
+    <footer class="jumbotron bg-success">
+        © 2021 online voting. All rights reserved
+    </footer>
 </body>
 </html>

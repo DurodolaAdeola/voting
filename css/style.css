@@ -6,6 +6,7 @@
 a{
     padding: 30px;
     margin-top: 30%;
+    color: white;
 }
 img{
     float: left;
@@ -16,4 +17,19 @@ nav{
     background-color: green;
     height: 200px;
     padding-top: 70px;
+}
+.wel{
+    color: green;
+}
+h1{
+    color: black;
+}
+.val{
+    border: 10px solid green;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+}
+.form {
+    display: none;
 }
