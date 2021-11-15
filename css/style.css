@@ -33,3 +33,7 @@ h1{
 .form {
     display: none;
 }
+.governor{
+    color: green;
+    border: 10px solid green;
+}
